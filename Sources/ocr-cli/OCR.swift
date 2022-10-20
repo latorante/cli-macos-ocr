@@ -110,6 +110,7 @@ class OCR {
             request.revision = VNRecognizeTextRequestRevision1
         }
         request.usesLanguageCorrection = languageCorrection
+        request.recognitionLanguages = ["en-US", "cs-CZ"]
 
         let requestHandler = VNImageRequestHandler(cgImage: cgImage, options: [:])
         do {

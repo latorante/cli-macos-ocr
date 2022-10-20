@@ -5,8 +5,14 @@
 ## Build
 
 ```
+# Build
 swift build
+
+# Run debug
 .build/debug/ocr-cli file
+
+# Move final script
+mv .build/debug/ocr-cli /usr/local/bin/ocr-cli
 ```
 
 ## Info
